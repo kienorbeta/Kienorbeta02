@@ -17,10 +17,22 @@ body {
 h1, h2, h3 {
   color: #333;
 }
+
+/* 👇 New styles for side-by-side layout */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-text {
+  flex: 1;
+}
+
 .profile-photo {
-  width: 180px;
+  width: 120px;
   height: auto;
   border-radius: 8px;
-  display: block;
-  margin: 0 auto 1rem;
+  margin: 0;
 }
